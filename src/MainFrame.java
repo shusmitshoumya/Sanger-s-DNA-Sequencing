@@ -35,7 +35,8 @@ public class MainFrame extends JFrame implements ActionListener{
         base.setTitle("DNA Sanger's Principle Simulation");
 
         // Icon
-        ImageIcon image = new ImageIcon("icon.png");
+        // ImageIcon image = new ImageIcon("icon.png");
+        ImageIcon image = new ImageIcon(getClass().getResource("img/icon.png"));
         base.setIconImage(image.getImage());
 
         // Background

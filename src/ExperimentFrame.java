@@ -141,15 +141,25 @@ public class ExperimentFrame extends JFrame implements ActionListener {
 		bottomPanel.add(panelG);
 		bottomPanel.add(panelC);
 
-		ImageIcon tube01 = new ImageIcon("test-tube01.png");
-		ImageIcon tube02 = new ImageIcon("test-tube02.png");
-		ImageIcon tube03 = new ImageIcon("test-tube03.png");
-		ImageIcon tube04 = new ImageIcon("test-tube04.png");
+		// ImageIcon tube01 = new ImageIcon("test-tube01.png");
+		// ImageIcon tube02 = new ImageIcon("test-tube02.png");
+		// ImageIcon tube03 = new ImageIcon("test-tube03.png");
+		// ImageIcon tube04 = new ImageIcon("test-tube04.png");
 
-		ImageIcon loadBar01 = new ImageIcon("custom-load-bar01.png");
-		ImageIcon loadBar02 = new ImageIcon("custom-load-bar02.png");
-		ImageIcon loadBar03 = new ImageIcon("custom-load-bar03.png");
-		ImageIcon loadBar04 = new ImageIcon("custom-load-bar04.png");
+		// ImageIcon loadBar01 = new ImageIcon("custom-load-bar01.png");
+		// ImageIcon loadBar02 = new ImageIcon("custom-load-bar02.png");
+		// ImageIcon loadBar03 = new ImageIcon("custom-load-bar03.png");
+		// ImageIcon loadBar04 = new ImageIcon("custom-load-bar04.png");
+
+		ImageIcon tube01 = new ImageIcon(getClass().getResource("img/test-tube01.png"));
+		ImageIcon tube02 = new ImageIcon(getClass().getResource("img/test-tube02.png"));
+		ImageIcon tube03 = new ImageIcon(getClass().getResource("img/test-tube03.png"));
+		ImageIcon tube04 = new ImageIcon(getClass().getResource("img/test-tube04.png"));
+		
+		ImageIcon loadBar01 = new ImageIcon(getClass().getResource("img/custom-load-bar01.png"));
+		ImageIcon loadBar02 = new ImageIcon(getClass().getResource("img/custom-load-bar02.png"));
+		ImageIcon loadBar03 = new ImageIcon(getClass().getResource("img/custom-load-bar03.png"));
+		ImageIcon loadBar04 = new ImageIcon(getClass().getResource("img/custom-load-bar04.png"));
 
 		JLabel label1 = new JLabel(loadBar01);
 		JLabel label2 = new JLabel(loadBar02);
